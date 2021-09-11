@@ -1,0 +1,60 @@
+body{
+	background-color:#F0F0F0
+}
+#title{
+	text-align:center;
+	padding-top:30px;
+}
+#main{
+	font-family:Montserrat,Sans-seriff;
+}
+#img-div{
+	text-align:center;
+	background-color:#e6ffff;
+	border:1px solid;
+}
+#image{
+padding-top:30px;
+margin: 15px;
+max-width:100%;
+height:auto;
+}	
+#img-caption{
+	padding-bottom:20px;
+}
+#tribute-link{
+	color:red;
+}
+#tribute-link:hover{
+	opacity:0.5;
+}
+#tribute-info{
+	/*padding:25px;*/
+	background-color:#F0F0F0;
+	text-align:center;
+	line-height:50px;
+	
+}
+#quote{
+	padding-bottom:20px;
+	line-height:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

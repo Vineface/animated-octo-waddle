@@ -1,0 +1,68 @@
+body{
+	font-family:Cairo,sans-seriff;
+}
+#main-doc{	
+	display:grid;
+	grid-template-areas:
+	"nav section1"
+	"nav section2"
+	"nav section3"
+    "nav section4"
+	"nav section5"
+	"nav section6"
+	"nav section7";
+	grid-template-columns:2 fr, 2 fr;
+	grid-template-rows: 2 fr 2 fr;
+}
+.main-section{
+	padding:15px;
+	margin-left:500px;
+	border-bottom:1px solid;
+}
+header{
+	padding:10px;
+	font-size:27px;
+}
+#navbar{
+	grid-area:nav;
+	position:fixed;
+	left:0px;
+}
+.nav-link{
+	text-decoration:none;
+	color:black;
+}
+.sec1{grid-area:section1;}
+.sec2{grid-area:section2;}
+.sec3{grid-area:section3;}
+.sec4{grid-area:section4;}
+.sec5{grid-area:section5;}
+.sec6{grid-area:section6;}
+.sec7{grid-area:section7;}
+@media query(max-width:450px;)
+{
+	p
+	{font-size:10px;
+	}
+	
+}
+
+code{
+	background-color:#f1f1f1;
+	padding:2px;
+	font-size:105%;
+	color:blue;
+}
+.navlist{
+	list-style-type:none;
+	padding:10px;
+	margin:10px;
+	border:2px solid;
+}
+.navlist:hover{
+	transform:scale(1.1);
+	background-color:#e0ffff;
+}
+#References{
+border-bottom:0px;
+}

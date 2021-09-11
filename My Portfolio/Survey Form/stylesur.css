@@ -1,0 +1,48 @@
+button{
+	border-radius:5px;
+	padding:5px;
+	width:20%;
+}
+button:hover{
+	animation-name: sub;
+	animation-duration:100ms;
+	animation-fill-mode:forwards;
+}
+@keyframes sub{
+	100%{
+	background-color:#00ff00;	
+	}
+}
+#survey-form{
+	padding:80px;
+}
+input,select{
+	padding:5px;
+	border-radius:10px;
+}
+#title,#description{
+	text-align:center;
+	background: linear-gradient( 45deg,#ccffff,#ffcccc);
+	border-radius:10px;
+}
+form{
+	background: linear-gradient( 45deg,#ccffff,#ffcccc);
+	border-radius:10px;
+	
+}
+fieldset{
+	border-radius:15px;
+	width:90%;
+	margin:auto;
+}
+body{
+	background: linear-gradient(45deg, #40edd0,#ee82ee);
+}
+button{
+	margin-left:0px;
+}
+textarea, input{
+	border-radius:15px;
+
+}
+

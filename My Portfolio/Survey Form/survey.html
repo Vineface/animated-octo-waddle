@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Survey Form</title>
+<meta charset = "utf-8">
+<meta http-equiv="refresh" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel ="stylesheet" type="text/css" href="stylesur.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+	<p id="description">Welcome my survey form. Thanks for taking the time to complete it. </p>
+<form id="survey-form"><fieldset>
+	<label for="name" id="name-label">Name:</label>
+		<input id="name" name="name" size="30"type="text" placeholder="Enter your name eg. John Doe" required tabindex="1"><br><br>
+	<label for="email" id="email-label">Email:</label>
+		<input id="email" size="35" name="email" type="email" placeholder="Enter your Email eg.johndoe46@yahoo.com" required pattern="[a-z0-9._%+-]+@[a-z]+\.[a-z]{2,4}$" tabindex="2"><br><br>
+	<label for="number" id="number-label">Telephone Number:</label>
+		<input id="number" size="40" name="number" type="tel" min="10" max="10" placeholder="Enter your telephone number eg. 123-123-1234" required pattern="[0-9].{10,10}" tabindex="3"><br><br>
+<label for="dropdown">Select Area:</label>
+<select id="dropdown" tabindex="4">
+<option value="0" selected>Select the area you are located in</option>
+<option value="Africa">Africa</option>
+<option value="Asia">Asia</option>
+<option value="Australia">Australia</option>
+<option value="Europe">Europe</option>
+<option value="North America">North America </option>
+<option value="South America">South America</option>
+<option value="Other">Other</option></select><br><br>
+<!--radio buttons-->
+<fieldset tabindex="5">Do you play an instrument:<br><br>
+<label for="yes">
+	<input type="radio" name="choice" id="yes">Yes</label><br><br>
+<label for ="no">
+	<input type="radio" name="choice" id="no">No</label></fieldset><br><br>
+<fieldset tabindex="6">If yes, how many instruments can you play? <br><br>
+<label for ="none">
+	<input type="radio" name="instruments" id="none">0</label><br><br>
+<label for ="one">
+	<input type="radio" name="instruments" id="one">1</label><br><br>
+<label for="two">
+	<input type="radio" name="instruments" id="two">2</label><br><br>
+<label for="three">
+	<input type="radio" name="instruments" id="three">3</label><br><br>
+<label for="four-plus">
+	<input type="radio" name="instruments" id="four-plus">4+</label></fieldset><br><br>
+<!--checkboxes-->
+<fieldset tabindex="7">Select your favourite music genres:<br><br>
+<label for="Hip-Hop">
+<input type="checkbox" name="instruments" value="Hip-Hop">Hip-Hop</label><br><br>
+<label for="Pop">
+<input type="checkbox" name="instruments" value="Pop">Pop</label><br><br>
+<label for="R&B">
+<input type="checkbox" name="instruments" value="R&B">R&B </label><br><br>
+<label for="Electronic">
+<input type="checkbox" name="instruments" value="Electronic">Electronic</label><br><br>
+<label for="K-Pop">
+<input type="checkbox" name="instruments" value="K-Pop">K-Pop</label><br><br>
+<label for="Country">
+<input type="checkbox" name="instruments" value="Country">Country</label><br><br>
+<label for="Gospel">
+<input type="checkbox" name="instruments" value="Gospel">Gospel</label><br><br>
+<label for="Rock">
+<input type="checkbox" name="instruments" value="Rock">Rock</label><br><br>
+<label for="Reggae">
+<input type="checkbox" name="instruments" value="Reggae">Reggae</label></fieldset><br><br>
+<!-- textarea-->
+<label for="comment">Comments/Suggestions:</label><br>
+<textarea id="comment" name="comment" cols="80" rows="5" tabindex="8"></textarea><br><br>
+<button type="submit" value="submit" id="submit">Submit</button></fieldset>
+</form>
+</body>
+</html>
